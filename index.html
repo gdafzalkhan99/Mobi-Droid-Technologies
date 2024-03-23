@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobi Droid Technologies</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <header>
+            <a href="#" class="logo">
+                <img src="images/md_logo.svg" alt="Mobi Droid Technologies Logo">
+            </a>
+
+            <nav>
+                <a href="#" class="menu-open desktop-hide">
+                    <img src="images/menu.svg" alt="Menu open">
+                </a>
+
+                <ul class="nav-right">
+                    <li class="first-li desktop-hide">
+                        <a href="#" class="menu-close">
+                            <img src="images/close.svg" alt="Menu close">
+                        </a>
+                    </li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Who we are?</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Team</a></li>
+                </ul>
+
+                <ul class="social-links">
+                    <li><a href="#">
+                        <img src="images/baseline-facebook.svg" alt="Facebook"></a>
+                    </li>
+                    <li><a href="#"><img src="images/twitter.svg" alt="Facebook"></a></li>
+                    <li><a href="#"><img src="images/linkedin.svg" alt="Facebook"></a></li>
+                </ul>
+            </nav>
+        </header>
+        
+    </div>
+
+    <div class="hero">
+        <img src="https://9dcdn.s3.us-east-1.amazonaws.com/9d_cdn/9dwebsite/banner.webp" alt="">
+    </div>
+
+    <div class="wrapper">
+    <section class="about-us">
+        
+        <img src="https://www.9dtechnologies.com/wp-content/uploads/2023/08/company-intro-image.png" alt="intro image">
+
+        
+        <div class="about-info">
+            <h1>Mission and Core Values</h1>
+            <p>
+                At <span>Mobi Droid Technologies</span>, our dedicated team is deeply committed to delivering exceptional products that resonate with users. Through rigorous research and development, we continually refine our approaches to stay at the forefront of technological advancements. Our comprehensive software development life cycle (SDLC) plans serve as blueprints for crafting robust and reliable solutions.</p> 
+                
+            <p>
+                With a clear vision in mind, <span>Mobi Droid Technologies</span> is embarking on a journey to expand its horizons. Our focus on developing top-ranking Android applications is driven by our passion for creating intuitive and user-friendly experiences. Simultaneously, our innovative Android games captivate audiences with immersive gameplay and engaging storytelling.
+            </p>
+            <p>    
+                Not limiting ourselves, we’re equally invested in IOS development, harnessing the power of Apple’s ecosystem to create seamless and polished applications. Our commitment to the realm of games extends to the virtual reality domain, where we aim to provide players with unparalleled immersive experiences. </p>
+            <p>    
+                As we stride forward, we remain dedicated to our core values of quality, creativity, and innovation. Our mission to diversify our offerings while maintaining the highest standards is an embodiment of our unwavering dedication to the world of technology and entertainment.
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="address">
+            <h1>Address</h1>
+            <p>Office #103, First Floor, Building #12, Spring North <br>
+                Commmercial Phase 7, Bahria Town, Rawalpindi
+            </p>
+        </div>
+
+        <div class="email-info">
+            <h1>Email</h1>
+            <p>hr@mobidroidtechnologies.com</p>
+            <h1>Working hours</h1>
+            <p>8:30 am – 6:00 pm</p>
+        </div>
+
+        <div class="telephone">
+            <h1>Telephone</h1>
+            <p>+923113831307</p>
+            <p>+923459854445</p>
+        </div>
+    </footer>
+
+</div>
+
+<script>
+
+    const menu = document.querySelector('nav ul');
+    const menuBtn = document.querySelector('.menu-open');
+    const closeBtn = document.querySelector('.menu-close');
+
+    menuBtn.addEventListener('click', () => {
+        menu.classList.add('open')
+    })
+
+    closeBtn.addEventListener('click', () => {
+        menu.classList.remove('open')
+    })
+
+</script>
+
+</body>
+</html>
